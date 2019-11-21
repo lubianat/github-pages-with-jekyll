@@ -1,16 +1,12 @@
 BEGIN:VCALENDAR
 BEGIN:VEVENT
-SUMMARY:Qual é afinal a relação entre Filosofia e Ciências Biológicas
- ?
-DTSTART;VALUE=DATE-TIME:20191031T150000
-DTEND;VALUE=DATE-TIME:20191031T160000
-DESCRIPTION:Qual é afinal a relação entre Filosofia e Ciências Biológ
- icas?\n\nUMA VISÃO INTERDISCIPLINAR\n\n0\,\na] TÓPICOS ATUAIS DA RELAÇ
- ÃO ENTRE\nFILOSOFIA E CIÊNCIAS BIOLÓGICAS:\n\n \n\nMaurício Ramos (FFL
- CH/USP)\nFrancisco Rômulo Ferreira (UFRJ)\n\n“Qual é afinal a relaçã
- o entre Filosofia e\nCiências Biológicas?”\n\n \n\nQuinta-feira\, 31 d
- e outubro de 2019\, 15 h\n\nAnfiteatro Geral da Botânica\nInstituto de Bi
- ociências - Universidade de São Paulo
-LOCATION:Anfiteatro Geral da Botânica
+SUMMARY:Reprodutibilidade e boas práticas em R
+DTSTART;VALUE=DATE-TIME:20191122T130000
+DTEND;VALUE=DATE-TIME:20191122T140000
+DESCRIPTION:Reprodutibilidade e boas práticas em R\n\nIB-R Users Convida:
+ \n\n"Reprodutibilidade e boas práticas em R"\n\nSL\nDá GitHub\n\nData: 2
+ 2/11\nHorário: 13h\nLocal: Auditório 1 do CD\n\n \n\nAndré Fonseca\n\nP
+ ós Doc\nDepartamento de Genética e Biologia Evolutiva
+LOCATION:Auditório 1 do CD
 END:VEVENT
 END:VCALENDAR
