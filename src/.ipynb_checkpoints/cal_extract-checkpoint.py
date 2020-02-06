@@ -21,7 +21,7 @@ def extract_title_from_quotes(text):
     print(title)
     return(title)
 
-def extract_date(text):
+def extract_date(phrase):
     meses = ["janeiro", "fevereiro", "março", "abril", "maio", "junho", "julho", "agosto", "setembro", "outubro", "novembro", "dezembro"]
 
     for index , mes in enumerate(meses):
@@ -45,17 +45,17 @@ def extract_date(text):
             if mes_n:
                 mes_n = int(mes_n[0])
                 
-    if phrase.find('2019'):
-        ano = "2019"
-    elif phrase.find('2020'):
+    if phrase.find('2020'):
         ano = "2020"
+    elif phrase.find('2021'):
+        ano = "2021"
     
     return(int(dia), int(mes_n), int(ano))
 
 
 ## Extrac time based on a dangling "h"
 
-def extract_time(text):
+def extract_time(phrase):
     h_solto = phrase.find(" h\n")
     
     if h_solto != -1:
@@ -68,7 +68,7 @@ def extract_time(text):
     return(int(horario))
 
 
-def extract_place(text):
+def extract_place(phrase):
     locais = ['anfiteatro', 'auditório', 'auditorio']
 
     for index , local in enumerate(locais):
@@ -91,7 +91,7 @@ def make_event( title, place, day, month, year, hour, minute, text = "", link = 
     evento = Event()
     evento.add('dtstart', event_start)
     evento.add('dtend', event_end)
-    evento.add('summary', title )
+    # evento.add('summary', title )
     evento.add('location', place)
     evento.add('description', title + "\n" + link + "\n" + text)
     return(evento)
@@ -181,7 +181,7 @@ def pegar_infos_do_icb(link, cal):
     event = Event()
     event.add('dtstart', event_start)
     event.add('dtend', event_end)
-    event.add('summary', titulo )
+    #event.add('summary', titulo )
     event.add('location', local)
     event.add('description', titulo + "\n" + palestrante + "\n" + link )
     cal.add_component(event)

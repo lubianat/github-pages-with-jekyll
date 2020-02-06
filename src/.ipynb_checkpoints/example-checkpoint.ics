@@ -1,0 +1,12 @@
+BEGIN:VCALENDAR
+BEGIN:VEVENT
+SUMMARY:Reprodutibilidade e boas práticas em R
+DTSTART;VALUE=DATE-TIME:20191122T130000
+DTEND;VALUE=DATE-TIME:20191122T140000
+DESCRIPTION:Reprodutibilidade e boas práticas em R\n\nIB-R Users Convida:
+ \n\n"Reprodutibilidade e boas práticas em R"\n\nSL\nDá GitHub\n\nData: 2
+ 2/11\nHorário: 13h\nLocal: Auditório 1 do CD\n\n \n\nAndré Fonseca\n\nP
+ ós Doc\nDepartamento de Genética e Biologia Evolutiva
+LOCATION:Auditório 1 do CD
+END:VEVENT
+END:VCALENDAR
